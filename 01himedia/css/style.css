@@ -36,7 +36,7 @@
 
 		/*visualWrap*/
 		div.visualWrap{height: 400px;background-color: #233e6f;
-			background-image: url(../../visual_bg01.jpg);background-repeat: no-repeat;background-position: center;}
+			background-image: url(../images/visual_bg01.jpg);background-repeat: no-repeat;background-position: center;}
 		div.visualWrap>div.visual{width: 980px;height: 400px;_background-color: skyblue;margin: 0 auto;
 									position: relative;overflow: hidden;}
 		div.visual>img.light{position: absolute;right:10px;top: 50px;}
