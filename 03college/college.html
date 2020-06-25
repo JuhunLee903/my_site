@@ -5,34 +5,9 @@
 	<meta charset="UTF-8">
 	<title>college</title>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css.jquery.bxslider.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/style.css">
 
-	<style>
-		
-		/*header*/
-		.hdWrap{width: 100%;height: 40px;background-color: #0044af;}
-		.hdWrap .topBox{width: 1200px;height: 40px;margin: 0 auto;position: relative;}
-		
-		.topBox .topLeft{width: 365px;position: absolute;left: 0;line-height: 40px;}
-		.topBox .topLeft li{width: 118.3333px;height: 40px;margin-right: 5px;
-			float:left;font-size: 18px;text-align: center;background-color: #00163b;}
-		.topBox .topLeft li:nth-child(3){margin-right: 0;}
-		.topBox .topLeft li a{display: block;color:white;}
-		.topBox .topLeft li a:hover{color:#222;background-color: #fff;}
-		
-		.topBox .topRight{width: 290px;position: absolute;right: 0;line-height: 40px;}
-		.topBox .topRight li{width: 65px;height: 40px;margin-right: 10px;
-			float:left;font-size: 10px;text-align: center;}
-		.topBox .topRight li:nth-child(4){margin-right: 0;}
-		.topBox .topRight li a{color:white;}
-
-
-		/*mMenu*/
-		.mMenuWrap{width: 100%;height: 120px;background-color: #fff;}
-		.mMenu{width: 1200px;height: 120px;margin: 0 auto;}
-	</style>
-
-	
 </head>
 <body>
 	<header class="hdWrap">
@@ -53,9 +28,11 @@
 
 	<div class="mMenuWrap">
 		<div class="mMenu">
-			<div class="logo"></div>
+			<div class="logo"><a href="#">
+				<img src="images/logo.png" alt="">
+			</a></div>
 			<div class="menu">
-				<ul>
+				<ul class="clearfix">
 					<li>대학소개</li>
 					<li>학과소개</li>
 					<li>학사안내</li>
@@ -67,5 +44,24 @@
 		</div>
 	</div>
 	
+	<div class="conBg">
+		<div class="conTop">
+			<div class="topTxt">
+				<h3 id="txt01">함께 나누며 세상을 이끌어</h3>
+				<h3 id="txt02">세계로향하는 한국대학교</h3>
+			</div>
+				
+			<div class="conMenu clearfix">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
+		
