@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*header*/
+		.header{width: 100%;height: 90px;background-image: url(../images/airlinetop.png);
+			background-repeat: no-repeat;background-position: center;background-size: cover;
+			position: relative;}
+			.logo{width: 106px;position: absolute;left: 350px;top: 18px;}
+			.logo h3,p{text-align: center;color:white;}
+			.logo h3{font-size:25px;margin-bottom: 5px;}
+			.logo p{font-size:12px;}
+
+			.search{width: 290px;height: 30px;border: 1px solid #000;background-color: #fff;
+				position: absolute;left: 590px;top: 30px;border-radius: 30px}
+
+			.number{width: 210px;height: 30px;position: absolute;left: 950px;top: 30px;}
+			.number p{font-size: 22px;font-weight: bold;}
+
+			.urlImg{}
+			.urlImg ul{}
+			.urlImg ul li{}
+
+	
+	.tmWrap{width: 100%;border-bottom: 5px solid #0e73a7;}
+		.topMenu{width: 980px;margin: 0 auto;}
+		.topMenu ul{}
+		.topMenu ul li{float: left;width: 162.166667px;height: 60px;border-left: 1px solid #000;
+			text-align: center;line-height: 60px;}
+		.topMenu ul li:nth-child(6){border-right: 1px solid #000;}
+		.topMenu ul li a{font-size: 18px; font-weight: bold;}
+	
+
+	.mBgimg{width: 100%;height: 1140px;background-image: url(../images/bgimg.jpg);
+		background-repeat: no-repeat;background-position: center;background-size: cover;}
+		.mContents{width: 980px;height: 1140px;margin: 0 auto;}
+		
+		.conLine1{width: 50%;margin-bottom: 15px;}
+		.conLine1>ul>li{float: left;width: 233.75px;height: 240px;margin-right: 15px;}
+		.conLine1>ul>li:nth-child(2){margin-right: 0;}
+
+		.conLine2{width: 100%;height: 240px;background-color: aqua;}
+	
+
