@@ -63,25 +63,46 @@
 				.overlayTxt01{text-align: center;line-height: 50px;}
 					
 
-		.conLine2{width: 100%;height: 240px;background-color: aqua;
-			margin-bottom: 15px;}
+		.conLine2{width: 100%;height: 240px;margin-bottom: 15px;}
 		.conLine2>ul>li{float: left;width: 233.75px;height: 240px;
 			margin-right: 15px;position: relative;}
 		.conLine2>ul>li:nth-child(4){margin-right: 0;}
+		.conLine2>ul>li img{width: 100%;height: 100%;}
 		.overlay02{width: 100%;height: 50px;position: absolute;
 			bottom: 0;background-color: #529351;}
+		.overlay03{width: 100%;height: 50px;position: absolute;
+			bottom: 0;background-color: rgba(21,38,48,0.8);}
 			.overlayTxt02{padding-left: 10px}
+		.overlay04{width: 100%;height: 50px;position: absolute;
+			bottom: 0;background-color: #44619d;}
+		#faceBreview{position: relative;}
+		#inImgtxt{position: absolute;top: 20px;left: 10px;font-size: 14px;}
+		#inImgtxt1{position: absolute;top: 90px;left: 10px;font-size: 12px;
+			color:#43619d;}
+		#inImgtxt2{position: absolute;top: 110px;left: 10px;font-size: 14px;
+			color:#e3a401;}
+		#inImgtxt3{position: absolute;top: 110px;left: 52px;font-size: 14px;
+			color:gray;}
+
 	
 		
 
-		.conLine3{width: 100%;height: 240px;background-color: aqua;}
+		.conLine3{width: 100%;height: 240px;}
 		.conLine3>ul>li{float: left;width: 233.75px;height: 240px;
 			margin-right: 15px;overflow: hidden;}
 		.conLine3>ul>li:nth-child(4){margin-right: 0;}
+		.conLine3>ul>li img{width: 100%;height: 100%;}
 
 			#txtWhite{color:white;}
 			#txtGreen{color:green;}
 			#txtYellow{color:yellow;}
+			#txtGray{color:gray;}
+			.fontS12{font-size: 12px}
+
+
+	footer{width: 100%;background: gray;}
+	footer>ul{width: 1000px;}
+	footer>ul>li{float: left;}
 
 
 
